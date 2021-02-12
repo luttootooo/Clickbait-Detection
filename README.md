@@ -1,1 +1,4 @@
-# Clickbait-Detection
+# Clickbait-Text-Classification
+
+<br> 
+This project was part of my assignments in NLP class. This assignment aimed to predict whether a news headline is classified as clickbait or not. This one was quite challenging because our lecturer forbade us to use any NLP or Machine Learning libraries related to the Naive Bayes classifier to solve it. We were challenged to build the Naive Bayes model from scratch using a statistical approach. Before applying the operation, I did some preprocessing first, like case-folding and remove the irrelevant character. The Naive Bayes approach uses pre-constructed vocabulary and joint probability calculation to build a model, including the add-k smoothing concept. After all, I got an accuracy of 0.65 with the precision and recall quite close to that value. I didn't perform stopwords removal as it decreases the performance (or accuracy).
